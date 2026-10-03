@@ -1,0 +1,7 @@
+{
+  "name": "creator-contract-signing",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node --import tsx src/server.ts", "test": "node --import tsx test/contract_signer.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"tsx": "^4.19.0", "typescript": "^5.6.3", "zod": "^3.23.8"}
+}
